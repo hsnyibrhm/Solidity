@@ -6,8 +6,82 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_nama",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_nofav",
+						"type": "uint256"
+					}
+				],
+				"name": "addOrang",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "listOrang",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "NoFav",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "nama",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "namaToNoFav",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "noFav",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "retrive",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -60,11 +134,11 @@
 	},
 	"sources": {
 		"SimpleStorage.sol": {
-			"keccak256": "0x69e1f95ea0b19db2f06d6dc69f0e11bb7191434eb0aa1ce0818d2a0ba43c434d",
+			"keccak256": "0x2fdf727582e6051b7a3963abe27c1a65cbf2c198d62435bc8b7d9e0624302ae6",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://4adeb6bbef027e68c56574a5dab86904e126ec8c336187a3cf4c837efcdf7dde",
-				"dweb:/ipfs/QmeZ4wFfVENEUYkXmDNH4EnLmV5oEPqfiFsQzdEycbfyJ6"
+				"bzz-raw://b37208d74ab2acdfbe97dd6c8db89686641199008156689845a7127c2432f9e4",
+				"dweb:/ipfs/QmZWn3hzD5uz96fQG9q3aoqsowgUr6JxNx6CoSKoakpUgW"
 			]
 		}
 	},
