@@ -1,0 +1,10 @@
+{
+  "SimpleStorage.sol": {
+    "__sources__": {
+      "SimpleStorage.sol": {
+        "content": "// SPDX-License-Identifier: MIT\r\npragma solidity ^0.8.18; // deklarasi versi dari solidity\r\n\r\ncontract SimpleStorage {\r\n\r\n    uint256 public noFav;\r\n    function toko(uint256 _noFav) public {\r\n        noFav = _noFav;\r\n    }\r\n\r\n}\r\n\r\n//0xd9145CCE52D386f254917e481eB44e9943F39138",
+        "file": "SimpleStorage.sol"
+      }
+    }
+  }
+}

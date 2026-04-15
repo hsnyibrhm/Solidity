@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.34+commit.80d5c536"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "noFav",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_noFav",
+						"type": "uint256"
+					}
+				],
+				"name": "toko",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"SimpleStorage.sol": "SimpleStorage"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"SimpleStorage.sol": {
+			"keccak256": "0x69e1f95ea0b19db2f06d6dc69f0e11bb7191434eb0aa1ce0818d2a0ba43c434d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4adeb6bbef027e68c56574a5dab86904e126ec8c336187a3cf4c837efcdf7dde",
+				"dweb:/ipfs/QmeZ4wFfVENEUYkXmDNH4EnLmV5oEPqfiFsQzdEycbfyJ6"
+			]
+		}
+	},
+	"version": 1
+}
