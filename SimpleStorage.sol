@@ -4,6 +4,8 @@ pragma solidity ^0.8.18; // deklarasi versi dari solidity
 contract SimpleStorage {
 
     uint256 public noFav;
+    uint256 [] listnofav;
+    
     function toko(uint256 _noFav) public {
         noFav = _noFav;
     }
