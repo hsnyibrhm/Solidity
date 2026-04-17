@@ -15,7 +15,7 @@ contract SimpleStorage {
 
     mapping(string => uint256) public namaToNoFav;
     
-    function toko(uint256 _noFav) public {
+    function store(uint256 _noFav) public virtual {
         noFav = _noFav;
     }
 

@@ -6,8 +6,19 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "createSimpleStorageContracts",
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_nama",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_nofav",
+						"type": "uint256"
+					}
+				],
+				"name": "addOrang",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -20,69 +31,76 @@
 						"type": "uint256"
 					}
 				],
-				"name": "listOfSimpleAddresses",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"name": "listOfSimpleStorageContracts",
-				"outputs": [
-					{
-						"internalType": "contract SimpleStorage",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_simpleStorageIndex",
-						"type": "uint256"
-					}
-				],
-				"name": "sfGet",
+				"name": "listOrang",
 				"outputs": [
 					{
 						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_simpleStorageIndex",
+						"name": "NoFav",
 						"type": "uint256"
 					},
 					{
+						"internalType": "string",
+						"name": "nama",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "namaToNoFav",
+				"outputs": [
+					{
 						"internalType": "uint256",
-						"name": "_newSimpleStorageNumber",
+						"name": "",
 						"type": "uint256"
 					}
 				],
-				"name": "sfStore",
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "noFav",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "retrive",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_newNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "store",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -101,7 +119,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"StorageFactory.sol": "StorageFactory"
+			"AddFiveStorage.sol": "AddFiveStorage"
 		},
 		"evmVersion": "osaka",
 		"libraries": {},
@@ -115,20 +133,20 @@
 		"remappings": []
 	},
 	"sources": {
+		"AddFiveStorage.sol": {
+			"keccak256": "0x091974d6d33ca890826d5348ae7794fa3e3ea62e41d095e0aec0969e90f61092",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://badd7ab511611de2bd0b4ccba3e9a20e43f28bbf3ce5601916d30454ca325c4b",
+				"dweb:/ipfs/QmVZGNSSjVby1CmyyeGRxAgmRzYgcGGsxooXY5DsNY5XJn"
+			]
+		},
 		"SimpleStorage.sol": {
 			"keccak256": "0xbcd606dbe3dac56f2c0e3489407fbbf7d468f0b6d3c22143250bffb8d4ac20db",
 			"license": "MIT",
 			"urls": [
 				"bzz-raw://1bebfdbf1bbc74f84110dd3579c8d697cdca99ed43c05bb9dfd9dcccaee1eb3d",
 				"dweb:/ipfs/QmaEkZDMEaoyDjD917ezxR4HVjHimAGtqUtW81Qpg8HGrL"
-			]
-		},
-		"StorageFactory.sol": {
-			"keccak256": "0x5c92c1fa5eca7446cb9a3c5f5ca24a9994fc79d247b111fc64c7f329a1fe7cae",
-			"license": "MIT",
-			"urls": [
-				"bzz-raw://33f3d243409b2e4ae3c74b6d2f1c1d172b062d51eef817aa549b8f2855adad6c",
-				"dweb:/ipfs/Qmf626p87MSWJjLj5g9EpmGTrcMts6F352Xr7MuMje2yUQ"
 			]
 		}
 	},

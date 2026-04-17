@@ -100,7 +100,7 @@
 						"type": "uint256"
 					}
 				],
-				"name": "toko",
+				"name": "store",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -134,11 +134,11 @@
 	},
 	"sources": {
 		"SimpleStorage.sol": {
-			"keccak256": "0x3caca89ef0c89d6318745e39ef836ad37b7b64b69e3e66ceda0501158d3abda9",
+			"keccak256": "0xbcd606dbe3dac56f2c0e3489407fbbf7d468f0b6d3c22143250bffb8d4ac20db",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://f8cfd71bf914d4f96083483cf507ffd268ad597714d1358721b2f22f41dabfd7",
-				"dweb:/ipfs/QmWwZs3S7DzWjEz78KyaZA7GiPWhJigDjFNVRwKwgS6YtW"
+				"bzz-raw://1bebfdbf1bbc74f84110dd3579c8d697cdca99ed43c05bb9dfd9dcccaee1eb3d",
+				"dweb:/ipfs/QmaEkZDMEaoyDjD917ezxR4HVjHimAGtqUtW81Qpg8HGrL"
 			]
 		}
 	},

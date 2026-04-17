@@ -22,7 +22,7 @@ contract StorageFactory{
         // mySimpleStorage.toko(_newSimpleStorageNumber);  
 
         //sintak atas yang 2 baris bisa lebih simple dengan 1 baris seperti di bawah
-        listOfSimpleStorageContracts[_simpleStorageIndex].toko(_newSimpleStorageNumber);
+        listOfSimpleStorageContracts[_simpleStorageIndex].store(_newSimpleStorageNumber);
     }
 
     function sfGet(uint256 _simpleStorageIndex) public view returns ( uint256 ) {
